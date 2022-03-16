@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UserRegister</string>
+    <string name="label_users">Lista de Usuários</string>
+    <string name="label_new_user">Novo Usuário</string>
+    <string name="label_name">Nome</string>
+    <string name="label_sobrenome">Sobrenome</string>
+    <string name="label_confirmar">Confirmar</string>
+</resources>
