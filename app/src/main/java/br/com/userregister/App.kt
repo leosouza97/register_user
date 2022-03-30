@@ -6,6 +6,7 @@ import br.com.userregister.data.UserRepository
 
 class App : Application() {
 
+    //instanciar room e o repository.
     val database by lazy { AppDatabase.getDatabase(this) }
     val repository by lazy { UserRepository(database.userDao()) }
 }

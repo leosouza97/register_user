@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         MainViewModelFactory((application as App).repository)
     }
 
+    //inicializar na primeira vez e nas próximas vezes que for usar é devolvido um valor como já atribuido em cache
     private val adapter by lazy { UserAdapter() }
 
     override fun onCreate(savedInstanceState: Bundle?) {

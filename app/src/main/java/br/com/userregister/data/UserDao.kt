@@ -6,6 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
+//Acessar o Room
 @Dao
 interface UserDao {
 

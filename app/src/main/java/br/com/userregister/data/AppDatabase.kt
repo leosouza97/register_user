@@ -5,9 +5,11 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
+//Gerenciar entidades e o Room
 @Database(entities = [User::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
 
+    //abstract class não pode ser instanciada e não pode criar objetos para a classe
     abstract fun userDao() : UserDao
 
     companion object{
